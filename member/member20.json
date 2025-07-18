@@ -1,0 +1,155 @@
+[{
+    "name":"綾城 敏佑",
+    "study":"文/心理学専攻",
+    "generation":20,
+    "from":"韓国水原市",
+    "former":"サッカー部",
+    "image":"minu.jpeg",
+    "attraction":"部内唯一な外国人",
+    "motto":"You cannot create experience. You must undergo it.-Albert Camus",
+    "comment":"専攻より自転車修理の腕がうまくなった件"
+  },
+
+  {
+    "name":"五十嵐 大翔",
+    "study":"理",
+    "generation":20,
+    "from":"福島県",
+    "former":"剣道部",
+    "image":"igarashi.jpeg",
+    "attraction":"前髪が天然パーマ",
+    "motto":"継続は力なり、塵も積もれば山となる",
+    "comment":"ゲームがめちゃ好きです！"
+  },
+	
+  {
+    "name":"太田雅大",
+    "study":"農/資源生物科学",
+    "generation":20,
+    "from":"愛知県",
+    "former":"剣道部",
+    "image":"oota.jpeg",
+    "attraction":"絶望的な視力",
+    "motto":"独立不羈",
+    "comment":"小心者です"
+  },
+	
+  {
+    "name":"大橋 弘聖",
+    "study":"法",
+    "generation":20,
+    "from":"静岡県",
+    "former":"吹奏楽部/弓道部",
+    "image":"oohashi.jpeg",
+    "attraction":"やけに長くて量があるまつ毛",
+    "motto":"継続は力なり、早起きは三文の徳",
+    "comment":"食堂バイトおすすめです！"
+  },
+	
+  {
+    "name":"小川 航司",
+    "study":"理",
+    "generation":20,
+    "from":"神奈川県",
+    "former":"剣道部/美術部",
+    "image":"ogawa.jpeg",
+    "attraction":"しゃべりだしたら止まらない",
+    "motto":"ドゥー・イット・ユアセルフ––『自分でやれ』",
+    "comment":"ゲームとかアニメとかよくみる？やる？かな"
+  },
+
+  {
+    "name":"小泉 優菜",
+    "study":"医/保健学科看護学専攻",
+    "generation":20,
+    "from":"愛知県名古屋市",
+    "former":"吹奏楽部/ボート部",
+    "image":"koizumi.jpeg",
+    "attraction":"体力",
+    "motto":"笑う門には福来る",
+    "comment":"大学のうちに女子力をつけたい"
+  },
+	
+  {
+    "name":"酒井 涼成",
+    "study":"理",
+    "generation":20,
+    "from":"愛知県",
+    "former":"卓球部",
+    "image":"sakai.jpeg",
+    "attraction":"好きな食べ物は最初に食べる派",
+    "motto":"人事を尽くして天命を待つ",
+    "comment":"落単しないように頑張ります！"
+  },
+  {
+    "name":"白井 紀帆",
+    "study":"文",
+    "generation":20,
+    "from":"愛知県",
+    "former":"美術部/放送部",
+    "image":"shirai.jpeg",
+    "attraction":"好きな食べ物は最後に取っておく派",
+    "motto":"無益の事を行じて徒に時を失うなかれ",
+    "comment":"色んなことに挑戦したいです"
+  },
+	
+  {
+    "name":"髙瀬 晶",
+    "study":"工/物理工学",
+    "generation":20,
+    "from":"愛知県名古屋市",
+    "former":"ソフトテニス部/バレーボール部",
+    "image":"takase.jpeg",
+    "attraction":"マスターオブ二度寝",
+    "motto":"為さねば成る、為さねば成らぬ成る業を、成らぬと捨つる人の儚き",
+    "comment":"春よ来い！！"
+  },
+
+  {
+    "name":"日比野 紗和",
+    "study":"文",
+    "generation":20,
+    "from":"愛知県",
+    "former":"ハンドボール部",
+    "image":"hibino.jpeg",
+    "attraction":"関節が柔らかめ",
+    "motto":"石橋を叩いて渡る",
+    "comment":"アナグラムで\"わさびの日\""
+  },
+
+  {
+    "name":"深澤 志",
+    "study":"工/機械・航空宇宙工学",
+    "generation":20,
+    "from":"三重県",
+    "former":"剣道部/地学部",
+    "image":"hukazawa.jpeg",
+    "attraction":"好きな食べ物は最後に取っておく派",
+    "motto":"そんなものはないッ！",
+    "comment":"闘雄 阿波 鬼瓦"
+  },
+
+  {
+    "name":"藤田颯良",
+    "study":"工",
+    "generation":20,
+    "from":"栃木県",
+    "former":"剣道部/美術部",
+    "image":"hujita.jpeg",
+    "attraction":"だいたい何でも食べます",
+    "motto":"「ありえない」なんて事はありえない",
+    "comment":"茶道部も兼部してます"
+  },
+
+  {
+    "name":"松井 充希",
+    "study":"文",
+    "generation":20,
+    "from":"岐阜県",
+    "former":"剣道部/卓球部",
+    "image":"matui.jpeg",
+    "attraction":"大事なことはメモして頭に残さない派",
+    "motto":"気楽に、慎重に、真剣に",
+    "comment":"ゆとりが大事"
+  }
+]

@@ -1,0 +1,65 @@
+[
+	{
+		"name": "中山 祐樹",
+		"role": "前々主将",
+		"study": "工/物理工",
+		"generation": 14,
+		"from": "名古屋市緑区",
+		"former": "陸上部/科学部",
+		"image": "nakayama.jpg",
+		"attraction": "左利きです",
+		"motto": "用意周到",
+		"comment": "意外に落ち着きがないです。"
+	},
+
+	{
+		"name":"辻 啓太郎",
+		"role":"前々副将",
+		"study":"工/機械・航空工",
+		"generation":14,
+		"from":"愛知県清須市",
+		"former":"剣道部",
+		"image":"tsuji.jpg",
+		"attraction":"まつ毛が長い",
+		"motto":"来る者拒まず、去る者追わず",
+		"comment":"長いものを持つと振りたくなります。"
+	},
+
+	{
+		"name":"齊藤 由佳",
+		"role":"前々副将",
+		"study":"経済/経済",
+		"generation":14,
+		"from":"愛知県西尾市",
+		"former":"柔道部/放送部",
+		"image":"saito_Y.jpg",
+		"attraction":"たまに頭のねじがはずれるところ",
+		"motto":"現在(いま)を大切に",
+		"comment":"温かい目で見守ってください。"
+	},
+
+	{
+		"name":"井田 明日香",
+		"study":"文",
+		"generation":14,
+		"from":"愛知県東海市",
+		"former":"合唱部/茶道部",
+		"image":"ida.jpg",
+		"attraction":"すぐに泣く",
+		"motto":"死のうは一定、しのび草には何をしよぞ、一定かたりをこすよの",
+		"comment":"目と耳が悪いです。"
+	},
+
+	{
+		"name":"松本 奈々",
+		"study":"中部大学 工/機械工",
+		"generation":14,
+		"from":"愛知県",
+		"former":"水泳部/茶道部",
+		"image":"matsumoto.jpg",
+		"attraction":"方向音痴",
+		"motto":"勇往邁進",
+		"comment":"よろしくお願い致します。"
+	}
+
+]

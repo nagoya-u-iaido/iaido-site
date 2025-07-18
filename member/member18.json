@@ -1,0 +1,37 @@
+[{
+    "name":"馬渕理",
+    "study":"理",
+    "generation":18,
+    "from":"愛知県刈谷市",
+    "former":"バレーボール部、科学部",
+    "image":"umabuti.png",
+    "attraction":"身長189",
+    "motto":"ルールを守って楽しくデュエル",
+    "comment":"頑張れ自分"
+  },
+
+  {
+    "name":"森陽香",
+    "study":"文",
+    "generation":18,
+    "from":"岐阜県",
+    "former":"剣道部、美術部",
+    "image":"mori.jpg",
+    "attraction":"体がかたい",
+    "motto":"まぁなんとかなるぞ",
+    "comment":"頑張ります！！"
+  },
+
+  {
+    "name":"山内葵",
+    "study":"文",
+    "generation":18,
+    "role":"前主将",
+    "from":"愛知県名古屋市",
+    "former":"園芸、放送、茶華道",
+    "image":"yamauti.jpg",
+    "attraction":"まつ毛が長い",
+    "motto":"念には念を入れよ",
+    "comment":"早起きは苦手ですが頑張ります！"
+  }
+]

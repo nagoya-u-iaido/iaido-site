@@ -1,0 +1,50 @@
+[{
+    "name":"井上創",
+    "study":"理/地惑科",
+    "generation":16,
+    "role":"前主将",
+    "from":"四国",
+    "former":"卓球部",
+    "image":"inoue.jpg",
+    "attraction":"強めの方言",
+    "motto":"為さぬ善より為す偽善",
+    "comment":"好きな芸人はとろサーモン"
+  },
+
+  {
+    "name":"谷口善紀",
+    "study":"法",
+    "generation":16,
+    "role":"前副将",
+    "from":"東京都",
+    "former":"弓道部",
+    "image":"taniguchi.jpg",
+    "attraction":"よく動く眉毛",
+    "motto":"明日は明日の風が吹く",
+    "comment":"最後に一言だけ言わせてください。\nメリークリスマス"
+  },
+
+  {
+    "name":"海野能窓",
+    "study":"情報/自然情報学科",
+    "generation":16,
+    "from":"東京都",
+    "former":"合気道部/プログラミング研究会",
+    "image":"umino.jpg",
+    "attraction":"長い前髪",
+    "motto":"CapsLockには近づくな",
+    "comment":"触ってしまったらShift+CapsLock"
+  },
+
+  {
+    "name":"澤田侑輝",
+    "study":"経済",
+    "generation":16,
+    "from":"愛知県",
+    "former":"帰宅部/箏曲部",
+    "image":"sawada.jpg",
+    "attraction":"ほんの少しだけ右耳が尖ってるところ",
+    "motto":"雨垂れ石を穿つ",
+    "comment":"頑張ります。"
+  }
+]

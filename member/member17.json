@@ -1,0 +1,116 @@
+[{
+    "name":"榊原梨々花",
+    "study":"文/人文学科",
+    "generation":17,
+    "role":"主将",
+    "from":"愛知県名古屋市",
+    "former":"競技かるた部",
+    "image":"sakakibara.jpg",
+    "attraction":"絵が描けます",
+    "motto":"迅速果敢",
+    "comment":"人とご飯に行きたいです"
+  },
+
+  {
+    "name":"小島伸之助",
+    "study":"農/生物環境科学科",
+    "generation":17,
+    "role":"副将/体育会常任委員/DVD管理",
+    "from":"愛知県江南市",
+    "former":"剣道部",
+    "image":"kojima.jpg",
+    "attraction":"寝坊による遅刻が多い",
+    "motto":"やるときやる",
+    "comment":"ないとくんはツイ廃です！"
+  },
+
+  {
+    "name":"増澤りつ",
+    "study":"法",
+    "generation":17,
+    "role":"副将/東海連盟幹事",
+    "from":"長野県",
+    "former":"軽音楽部",
+    "image":"masuzawa.jpg",
+    "attraction":"おでこが広い",
+    "motto":"不撓不屈",
+    "comment":"自反而縮雖千萬人吾往矣."
+  },
+
+  {
+    "name":"河野楓",
+    "study":"法",
+    "generation":17,
+    "role":"会計監査",
+    "from":"岐阜県岐阜市",
+    "former":"剣道部、書道部",
+    "image":"kouno.jpg",
+    "attraction":"よく骨が鳴る",
+    "motto":"苦しい時の右下段!!",
+    "comment":"授業中はマイクをミュートにしましょう"
+  },
+
+  {
+    "name":"藤戸祐成",
+    "study":"理",
+    "generation":17,
+    "role":"合宿企画",
+    "from":"愛知県みよし市",
+    "former":"科学部",
+    "image":"hujito.jpg",
+    "attraction":"右後ろの寝癖",
+    "motto":"逃げた者はもう一度戦える",
+    "comment":"居合道を楽しみたいです"
+  },
+
+  {
+    "name":"鈴木那弦",
+    "study":"農/応用生命化学科",
+    "generation":17,
+    "role":"Twitter/議事録/ブログ",
+    "from":"愛知県北名古屋市",
+    "former":"ソフトテニス部",
+    "image":"suzuki.jpg",
+    "attraction":"筋トレ中いつもプルプル",
+    "motto":"己を底辺だと思え",
+    "comment":"天才はいる。悔しいが"
+  },
+
+  {
+    "name":"竹内純一朗",
+    "study":"南山大学経営学部",
+    "generation":17,
+    "from":"愛知県知多市",
+    "former":"卓球/弓道/抜刀道",
+    "image":"takeuti.jpg",
+    "attraction":"真面目",
+    "motto":"最後に笑ったもん勝ち",
+    "comment":"自分は名大生でもなく、学校や通学の都合上あまり道場に顔を出せませんが、頑張ります"
+  },
+
+  {
+    "name":"大橋未奈",
+    "study":"農/資源生物科学科",
+    "generation":17,
+    "role":"Web管理/合宿企画",
+    "from":"岐阜県",
+    "former":"バドミントン部/バレーボール部",
+    "image":"oohasi.jpg",
+    "attraction":"まつ毛が多い",
+    "motto":"やられたらやり返す",
+    "comment":"恰好良くなれるよう頑張ります！"
+  },
+
+  {
+    "name":"猪又香菜穂",
+    "study":"理",
+    "generation":17,
+    "role":"東海連盟幹事",
+    "from":"愛知県名古屋市",
+    "former":"卓球部",
+    "image":"imata.jpg",
+    "attraction":"右手と左手で指の太さが違う",
+    "motto":"因果応報",
+    "comment":"体幹は絶滅したけれど筋トレも一生懸命頑張ります"
+  }
+]

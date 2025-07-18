@@ -1,0 +1,73 @@
+[{
+    "name":"大久保 有華",
+    "study":"教育",
+    "generation":21,
+    "from":"愛知県一宮市",
+    "former":"ソフトテニス/地学/放送",
+    "image":"ookubo.jpeg",
+    "attraction":"耳年齢80歳",
+    "motto":"意外と何とかなる",
+    "comment":"課題はいつでも秒前提出"
+  },
+
+  {
+    "name":"大山 颯介",
+    "study":"情報学部コンピュータ科学科",
+    "generation":21,
+    "from":"愛知県刈谷市",
+    "former":"弓道部",
+    "image":"ooyama.jpeg",
+    "attraction":"親指の爪",
+    "motto":"為虎傅翼",
+    "comment":"三河弁強めです"
+  },
+	
+  {
+    "name":"佐藤 美羽",
+    "study":"椙山女学園大学生活環境デザイン学科",
+    "generation":21,
+    "from":"愛知県一宮市",
+    "former":"軟式テニス/陸上/放送/美術",
+    "image":"satou.jpeg",
+    "attraction":"感情が顔に出る",
+    "motto":"なんとかなる",
+    "comment":"犬モフモフしたい！猫吸いしたい！鳩と遊びたい！"
+  },
+
+{
+    "name":"西　愛佳",
+    "study":"文学部",
+    "generation":21,
+    "from":"福井県福井市",
+    "former":"ソフトテニス/山岳",
+    "image":"nishi.jpeg",
+    "attraction":"関節の可動域",
+    "motto":"桜梅桃李",
+    "comment":"物持ちの良い人間を名乗るために日々修行中です"
+  },
+
+{
+    "name":"横山　昴司",
+    "study":"理学部",
+    "generation":21,
+    "from":"大阪府大阪市",
+    "former":"在宅部",
+    "image":"yokoyama.jpeg",
+    "attraction":"関西弁",
+    "motto":"酔生夢死",
+    "comment":"三体のエアコンを信仰"
+  },
+
+{
+    "name":"山田　悠人",
+    "study":"法学部",
+    "generation":21,
+    "from":"岐阜県岐阜市",
+    "former":"卓球部",
+    "image":"yamada.jpeg",
+    "attraction":"左手人差し指の爪",
+    "motto":"遠離一切顛倒夢想",
+    "comment":"護身用にやってます"
+  }
+
+]

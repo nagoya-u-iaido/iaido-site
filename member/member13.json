@@ -1,0 +1,148 @@
+[
+	{
+		"name":"北村 仁哉",
+		"role":"前主将",
+		"study":"工/物理工",
+		"generation":13,
+		"from":"愛知県豊川市",
+		"former":"ソフトテニス部",
+		"image":"kitamura.jpg",
+		"attraction":"背が高い、声が出る、三河弁",
+		"motto":"人間は負けたら終わりなのではない。辞めたら終わりなのだ。",
+		"comment":"楽しみつつ、本気で頑張ります。"
+	},
+	
+	{
+		"name":"坂田 凌大",
+		"role":"前副将",
+		"study":"理/生命理",
+		"generation":13,
+		"from":"愛知県",
+		"former":"剣道部",
+		"image":"sakata.jpg",
+		"attraction":"相棒",
+		"motto":"それでも俺は負けなかったーーっ(尾崎豊)",
+		"comment":"不器用なんです 愛を抱くには(尾崎豊)"
+	},
+	
+	{
+		"name":"竹野 智喜",
+		"role":"前副将",
+		"study":"工/化学生命工",
+		"generation":13,
+		"from":"金沢市",
+		"former":"剣道",
+		"image":"takeno.jpg",
+		"attraction":"飛行石",
+		"motto":"30秒で支度しな",
+		"comment":"『リーテ・ラトバリタ・ウルス<br>アリアロス・バル・ネトリール』(ラピュタ語)"
+	},
+	
+	{
+		"name":"三川 大貴",
+		"study":"経済/経済",
+		"generation":13,
+		"from":"愛知県稲沢市",
+		"former":"野球部/弓道部",
+		"image":"mikawa.jpg",
+		"attraction":"謎の動きをする手",
+		"motto":"雲外蒼天",
+		"comment":"倒れないようほどほどに頑張ります"
+	},
+	
+	{
+		"name":"田村 朝紀",
+		"study":"理/地球惑星科",
+		"generation":13,
+		"from":"愛知県",
+		"former":"剣道部",
+		"image":"tamura.jpg",
+		"attraction":"長いまつげと大きな目",
+		"motto":"初志貫徹",
+		"comment":"ハーフではないですよ"
+	},
+	
+	{
+		"name":"森 花菜子",
+		"study":"農/応用生命科",
+		"generation":13,
+		"from":"静岡県",
+		"former":"剣道部とボランティア部でしたが剣道に関してはほぼ忘れました……",
+		"image":"mori.jpg",
+		"attraction":"活舌が悪い",
+		"motto":"終わりよければすべてよし",
+		"comment":"腹筋ができるようになりたいです"
+	},
+	
+	{
+		"name":"市野 海音",
+		"study":"農/資源生物科",
+		"generation":13,
+		"from":"兵庫県",
+		"former":"化学部/帰宅部",
+		"image":"ichino.jpg",
+		"attraction":"首のホクロと黒縁メガネ",
+		"motto":"苦しいなら止めればいい",
+		"comment":"献血をしよう。"
+	},
+		
+	{
+		"name":"竹本 亜矢",
+		"study":"農/応用生命科",
+		"generation":13,
+		"from":"長野県",
+		"former":"ソフトテニス部/帰宅部",
+		"image":"takemoto.jpg",
+		"attraction":"親指が反ったり小指だけ曲がったりする手",
+		"motto":"信じる者は救われる",
+		"comment":"着付けが変でしたら教えていただけると助かります。"
+	},
+		
+	{
+		"name":"松永 理究",
+		"study":"理/化",
+		"generation":13,
+		"from":"静岡県",
+		"former":"自然科学部物理班",
+		"image":"matsunaga.jpg",
+		"attraction":"眼鏡と髪型",
+		"motto":"怠け者は夜忙しい",
+		"comment":"話すのは好きですが話しかけるのが苦手です"
+	},
+
+	{
+		"name":"西川 賢",
+		"study":"文",
+		"generation":13,
+		"from":"愛知県",
+		"former":"中学は水泳、高校はテニス",
+		"image":"nishikawa.jpg",
+		"attraction":"特に無し",
+		"motto":"（自）力本願",
+		"comment":"あじゃぱー"
+	},
+	
+	{
+		"name":"Tran Hoang Anh",
+		"study":"法学部 G30プログラム",
+		"generation":13,
+		"from":"ハノイ(ベトナム)",
+		"former":"帰宅部",
+		"image":"tran.jpg",
+		"attraction":"小さいがたくさんたべられる。",
+		"motto":"There is neither right way nor wrong way. The boundary between right and wrong is constructed by human perception and each person perceives the world in a unique way.",
+		"comment":"よろしくお願いします！"
+	},
+	
+	{
+		"name":"加藤 幹大",
+		"study":"名城大学 薬",
+		"generation":13,
+		"from":"愛知県豊明市",
+		"former":"帰宅部",
+		"image":"kato_M.jpg",
+		"attraction":"坊主頭",
+		"motto":"一石二鳥",
+		"comment":"893じゃないです。"
+	}
+]

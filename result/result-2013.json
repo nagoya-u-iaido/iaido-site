@@ -1,0 +1,114 @@
+{
+	"year":"h25",
+	"yearName":"平成25年度",
+	"game":[
+		{
+			"gameName":"第31回岡崎市居合道大会",
+			"individual":[
+				{
+					"part":"初段の部",
+					"result":[
+						{"rank":"第三位","name":"久保山大貴"}
+					]
+				},
+				{
+					"part":"段外の部",
+					"result":[
+						{"rank":"第三位","name":"丹羽智子"},
+						{"rank":"敢闘賞","name":"生田千晴, 夏目裕幸"}
+					]
+				}
+			]
+		},
+		
+		{
+			"gameName":"第22回岩浪会会長杯",
+			"individual":[
+				{
+					"part":"二段の部",
+					"result":[
+						{"rank":"最優秀演武賞","name":"柴川展子"},
+						{"rank":"優秀演武賞","name":"陳ヒョンテ, 中務真愛"}
+					]
+				},
+				{
+					"part":"初段の部",
+					"result":[
+						{"rank":"優秀演武賞","name":"大村武弥"}
+					]
+				},
+				{
+					"part":"段外の部",
+					"result":[
+						{"rank":"優勝","name":"丹羽智子"}
+					]
+				}
+			]
+		},
+		
+		{
+			"gameName":"第28回全日本学生居合道大会",
+			"team":[
+				{
+					"part":"団体戦",
+					"match":[
+						{"round":"一回戦","opponent":"國學院大學","ourPoints":0,"opponentPoints":5}
+					],
+					"result":"初戦敗退",
+					"member":[]
+				}
+			]
+		},
+		
+		{
+			"gameName":"第25回東海学生居合道大会",
+			"individual":[
+				{
+					"part":"二段以上の部",
+					"result":[
+						{"rank":"準優勝","name":"小林卓磨"}
+					]
+				}
+			]
+		},
+		
+		{
+			"gameName":"第67回半田市体育大会剣道競技(居合道の部)",
+			"individual":[
+				{
+					"part":"二段の部",
+					"result":[
+						{"rank":"準優勝","name":"柴川展子"},
+						{"rank":"第三位","name":"小林卓磨"}
+					]
+				},
+				{
+					"part":"初段の部",
+					"result":[
+						{"rank":"準優勝","name":"大村武弥"},
+						{"rank":"第三位","name":"島津瑛久, 山本祥平"}
+					]
+				},
+				{
+					"part":"段外の部",
+					"result":[
+						{"rank":"優勝","name":"豊嶋真未"},
+						{"rank":"準優勝","name":"丹羽智子"}
+					]
+				}
+			]
+		},
+		
+		{
+			"gameName":"第36回全剣連居合愛知県段別選手権大会",
+			"individual":[
+				{
+					"part":"二段の部",
+					"result":[
+						{"rank":"準優勝","name":"平山幹朗"}
+					]
+				}
+			]
+		}
+	]
+}

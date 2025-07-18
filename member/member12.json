@@ -1,0 +1,181 @@
+[
+	{
+		"name":"七野 正典",
+		"study":"工/化学・生物工",
+		"generation":12,
+		"from":"愛知県あま市",
+		"former":"バレーボール",
+		"image":"shichino.jpg",
+		"attraction":"脱いだら凄いよ",
+		"motto":"勇気を持って恐れるもの何も無し",
+		"comment":"刀なしで戦ったほうが強いです"
+	},
+	
+	{
+		"name":"西岡 楓賀",
+		"study":"工/物理工",
+		"generation":12,
+		"from":"徳島県阿南市",
+		"former":"剣道部",
+		"image":"nishioka.jpg",
+		"attraction":"無邪気",
+		"motto":"腹八分目",
+		"comment":"田舎から来ました。"
+	},
+	
+	{
+		"name":"加藤 いほり",
+		"study":"法",
+		"generation":12,
+		"from":"愛知県刈谷市",
+		"former":"卓球部/科学部",
+		"image":"kato_I.jpg",
+		"attraction":"常に赤い頬",
+		"motto":"明日ありと思う心の仇桜",
+		"comment":"いほり と書いて いおり と読みます。"
+	},
+	
+	{
+		"name":"福重 利佳",
+		"study":"文",
+		"generation":12,
+		"from":"愛知県",
+		"former":"演劇部/帰宅部",
+		"image":"fukushige.jpg",
+		"attraction":"気を抜くと「俺」になる。",
+		"motto":"千里の道も一歩から！",
+		"comment":"未熟者ゆえ, よろしくお願いします！！"
+	},
+	
+	{
+		"name":"稲垣 朔示郎",
+		"study":"工/電気電子・情報工",
+		"generation":12,
+		"from":"北海道",
+		"former":"帰宅部/剣道部",
+		"image":"inagaki.jpg",
+		"attraction":"浮き出る腕の静脈",
+		"motto":"おもしろきこともなき世をおもしろく",
+		"comment":"袴っていい！"
+	},
+	
+	{
+		"name":"近藤 芳穂",
+		"study":"理",
+		"generation":12,
+		"from":"三重県",
+		"former":"卓球部/ＳＳＨ科学部/調理部",
+		"image":"kondo_K.jpg",
+		"attraction":"二重の目",
+		"motto":"知識は力",
+		"comment":"頑張ります！よろしくお願いします！"
+	},
+	
+	{
+		"name":"平田 航大",
+		"study":"工/機械・航空工",
+		"generation":12,
+		"from":"静岡県",
+		"former":"水泳部/バドミントン部",
+		"image":"hirata.jpg",
+		"attraction":"かなりミーハーなところ",
+		"motto":"二兎追って二兎しとめろ！",
+		"comment":"はやく自分で袴を畳めるように頑張ります。"
+	},
+	
+	{
+		"name":"深澤 碧",
+		"study":"文",
+		"generation":12,
+		"from":"静岡県",
+		"former":"剣道部",
+		"image":"fukasawa.jpg",
+		"attraction":"メガネ（？）",
+		"motto":"人事を尽くして天命を待つ",
+		"comment":"剣道歴長いですが, すごく弱いです。"
+	},
+	
+	{
+		"name":"大楠 幹人",
+		"study":"工/機械・航空工",
+		"generation":12,
+		"from":"愛知県",
+		"former":"バドミントン部/棋道部",
+		"image":"ogusu.jpg",
+		"attraction":"ちっちゃい手足",
+		"motto":"100％は存在しない",
+		"comment":"頑張ります！"
+	},
+	
+	{
+		"name":"鈴木 駿之介",
+		"study":"工/化学・生物工",
+		"generation":12,
+		"from":"東京都品川区",
+		"former":"水泳部",
+		"image":"suzuki.jpg",
+		"attraction":"お兄ちゃんキャラ",
+		"motto":"日進月歩",
+		"comment":"今は日進市に住んでます。"
+	},
+	
+	{
+		"name":"斎藤 駿",
+		"study":"農/応用生命科",
+		"generation":12,
+		"from":"神奈川県藤沢市",
+		"former":"卓球部/バドミントン部",
+		"image":"saito_S.jpg",
+		"attraction":"言語オタク(主に欧州のもの)",
+		"motto":"学到老",
+		"comment":"脱初心者目指します。"
+	},
+	
+	{
+		"name":"角所 成",
+		"study":"工/化学・生物工",
+		"generation":12,
+		"from":"大阪府",
+		"former":"陸上部/書道部",
+		"image":"kakusho.jpg",
+		"attraction":"皺の多い手",
+		"motto":"万人を師とせよ",
+		"comment":"筋肉がもう少し欲しい......"
+	},
+	
+	{
+		"name":"黒瀬 悦志",
+		"study":"工/機械・航空工",
+		"generation":12,
+		"from":"東京都",
+		"former":"剣道部",
+		"image":"kurose.jpg",
+		"attraction":"笑顔",
+		"motto":"因果応報",
+		"comment":"よろしくお願いします。"
+	},
+	
+	{
+		"name":"古井 雅人",
+		"study":"工/物理工",
+		"generation":12,
+		"from":"岐阜県",
+		"former":"ソフトテニス部/帰宅部",
+		"image":"furui.jpg",
+		"attraction":"くねくねした髪",
+		"motto":"ネクスト・ワン",
+		"comment":"飲み込みが悪いので迷惑かけますが宜しくお願いします。"
+	},
+	
+	{
+		"name":"山口 春稀",
+		"study":"医/保健(PT専攻)",
+		"generation":12,
+		"from":"愛知のカンガルーの額",
+		"former":"剣道部/美術部（ほぼ漫研）",
+		"image":"yamaguchi.jpg",
+		"attraction":"無駄に真面目なところ。無駄に。",
+		"motto":"私は私以外の何者にもなれない",
+		"comment":"体力が切実に欲しいです。"
+	}
+]

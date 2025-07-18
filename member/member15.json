@@ -1,0 +1,89 @@
+[
+	{
+		"name": "岡﨑 裕太郎",
+		"role": "前々主将",
+		"study": "文",
+		"generation": 15,
+		"from": "名古屋市北区",
+		"former": "陸上部/生物部",
+		"image": "okazaki.jpg",
+		"attraction": "最下位から努力して下克上できること",
+		"motto": "努力だけではどうにもならないことがある。特に超一流の世界ではね",
+		"comment": "克己復礼　大学の4年間を居合道に賭けてみたいと思います。"
+	},
+
+	{
+		"name":"小久保 結衣",
+		"role":"前々副将",
+		"study":"経済",
+		"generation":15,
+		"from":"愛知県名古屋市",
+		"former":"卓球部/硬式テニス部",
+		"image":"kokubo.jpg",
+		"attraction":"地味にほくろが多い",
+		"motto":"落下したら危険な物は上に置かない",
+		"comment":"美しく刀を振れるよう頑張ります!"
+	},
+
+	{
+		"name":"朱 鳳亭",
+		"role":"前々副将",
+		"study":"名市大 芸術工 建築都市デザイン",
+		"generation":15,
+		"from":"愛知県名古屋市",
+		"former":"ソフトテニス部/硬式テニス部",
+		"image":"syu.jpg",
+		"attraction":"身体がとても硬い",
+		"motto":"ぶつからなきゃ伝わらないことだってあるよ",
+		"comment":"お豆腐メンタルにつき、お取り扱いの際はお手柔らかにして頂けますと幸いです。"
+	},
+
+	{
+		"name":"小貫 嵩弥",
+		"study":"農/資源生物科",
+		"generation":15,
+		"from":"愛知県日進市",
+		"former":"剣道部",
+		"image":"onuki.jpg",
+		"attraction":"アバラボネ",
+		"motto":"死ぬこと以外はかすり傷",
+		"comment":"意外とアクティブです"
+	},
+
+	{
+		"name":"喜久川 千花",
+		"study":"文",
+		"generation":15,
+		"from":"愛知県",
+		"former":"合唱部",
+		"image":"kikukawa.jpg",
+		"attraction":"ふるえる腹筋",
+		"motto":"急がば回れ",
+		"comment":"グミとラムネがおいしいです。"
+	},
+
+	{
+		"name":"近藤 咲良",
+		"study":"農/資源生物科",
+		"generation":15,
+		"from":"愛知県名古屋市",
+		"former":"ブラスバンド部",
+		"image":"kondo_s.jpg",
+		"attraction":"小さい耳",
+		"motto":"人のふり見て我がふり直せ",
+		"comment":"よろしくお願いします。"
+	},
+
+	{
+		"name":"髙山 楓菜",
+		"study":"理",
+		"generation":15,
+		"from":"横浜",
+		"former":"吹奏楽部",
+		"image":"takayama.jpg",
+		"attraction":"まつげが長いこと",
+		"motto":"今日を頑張り始めた者にのみ、明日がくるんだよ",
+		"comment":"闇堕ちしない程度に頑張ります"
+	}
+
+]
