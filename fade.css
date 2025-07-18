@@ -1,0 +1,95 @@
+/*フェードインするアニメーション*/
+@keyframes fadeIn{
+  from{
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+
+  to{
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/*フェードアウト*/
+@keyframes fadeOut{
+  from{
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  to{
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+}
+
+summary {
+  position: relative;
+
+  display: block;
+  text-align: left;
+  padding-left: 15px;
+  list-style: none;
+
+  transition: .7s;
+
+  /*background-color: red;*/
+}
+
+summary::-webkit-details-marker{
+  display: none; /*開発環境でもともとついている矢印を消すため*/
+}
+
+summary::before, summary::after{
+  top: 0;
+  bottom: 0;
+  left: 0;
+
+  margin: auto;
+  position: absolute;
+  content: "";
+}
+
+summary::after {/*三角の部分*/
+  width: 8px;
+  height: 12px;
+  
+  border: 6px solid transparent;
+  border-left: 10px solid white;
+
+  transition: .5s;/*ここで回転の速度を調整*/
+
+  /*background-color: red;*/
+}
+
+summary:hover{/*文字を発光させる*/
+  text-shadow: 0 0 15px #1580fa, 0 0 15px #1580fa, 0 0 15px white;
+
+  background: none;
+  
+  transition: 0.3s;
+}
+
+/*リストを開いたとき、矢印を回転させる*/
+details[open] > summary::after {
+  top: 5px;
+  left: -5px;/*回転が真ん中でないために右にずれるのを回避*/
+
+  transform: rotateZ(450deg); /* 450度回転 */
+}
+
+/*リストが開いたときにフェードインさせる*/
+details[open] > div{
+  animation: fadeIn .5s ease;
+
+  /*background-color: red;*/
+}
+
+/*リストが開いていて、かつsummary部分をクリックした場合、
+summaryのすぐ下に記述されているdiv全体をフェードアウトする。
+htmlにdivがないと反応しないため、フェードさせたい部分は
+divで囲うこと*/
+details[open] summary:active+div{
+  animation: fadeOut .5s ease;
+}

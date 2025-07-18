@@ -1,0 +1,241 @@
+@charset "utf-8";
+@import "style.css";
+
+header {
+  background-image: url(img/member_header.png);
+  background-position: center center;
+  background-size: 100% auto;
+	background-repeat: no-repeat;
+  height:200px;
+}
+
+.description div p{
+  padding: 20px 40px;
+  max-width: 900px;
+  text-align: left;
+  margin: 0 auto;
+}
+
+:root{
+	--gen-18-background-color:#1d4b47;
+	--gen-18-color:#ffffff;
+
+	--gen-19-background-color:#c38743;
+	--gen-19-color:#ffffff;
+
+	--gen-20-background-color:#701C1F;
+	--gen-20-color:#ffffff;
+
+        --gen-21-background-color:#483d8b;
+        --gen-21-color:#ffffff;
+
+  /*member.htmlで各学年の名前などに使う色の指定*/
+  /*代替わりの際に色を上に倣って追加、削除する*/
+}
+
+h2{
+  text-align: center;
+}
+
+table.num-of-member-table{
+	width:80%;
+  max-width: 900px;
+	margin:0px auto;
+}
+
+
+
+
+table.num-of-member-table th:nth-of-type(1){
+	background-color:var(--gen-18-background-color);
+	color:var(--gen-18-color);
+}
+
+table.num-of-member-table th:nth-of-type(2){
+	background-color:var(--gen-19-background-color);
+	color:var(--gen-19-color);
+}
+
+table.num-of-member-table th:nth-of-type(3){
+	background-color:var(--gen-20-background-color);
+	color:var(--gen-20-color);
+}
+
+table.num-of-member-table th:nth-of-type(4){
+	background-color:var(--gen-21-background-color);
+	color:var(--gen-21-color);
+}
+/*member.html上部の各学年の人数の表の色指定*/
+/*代替わりの際に色をずらす。nth-of-type(XX)は左からXX番目のマスの色を指定する*/
+
+
+table.num-of-member-table td{
+	border:1px solid #555;
+	text-align:center;
+}
+
+div#leader{
+	text-align:center;
+  padding:0 0 100px 0;
+}
+
+
+div#member{
+  max-width:900px;
+  display:block;
+  margin:0 auto;
+  padding:20px;
+	text-align:center;
+}
+
+div.member-table{
+	display:inline-grid;
+	grid-template-rows:200px;
+	grid-auto-rows:minmax(28px, auto);
+	grid-template-columns:74px auto;
+	margin:10px 5px;
+	width:200px;
+}
+
+div#leader .member-table{
+	grid-template-rows:300px;
+  width:300px;
+}
+
+div.member-table div{
+	border:var(--div-table-border);
+	display:flex;
+	align-items:center;
+	justify-content:center;
+}
+
+div.member-table p{
+	margin:0 5px;
+	text-align:left;
+}
+
+div.member-table div.member-icon-head, div.member-table div.member-name-head{
+	display:none !important;
+}
+
+div.member-table div.member-icon{
+	grid-column:1 / span 2;
+}
+
+div.member-icon img{
+	display:block;
+	width:100%;
+	margin:0;
+}
+
+div.member-table div{
+  border:1px solid #555;
+	background-color:#030320;
+}
+
+div.member-table div.member-name{
+	grid-column:1 / span 2;
+}
+
+div.member-table div.pull-button{
+	grid-column:1 / span 2;
+	cursor:pointer;
+	display:none;
+}
+
+@media screen and (max-width:5000px){
+
+	div.member-table div.pull-button{
+		height:40px;
+  }
+
+  div#leader .member-table{
+		grid-template-rows:100px 50px;
+		grid-template-columns:150px auto;
+		width:95%;
+    max-width: 500px;
+  }
+
+  div#member{
+    max-width:1200px;
+    text-align:center;
+  }
+
+	div.member-table{
+		grid-template-rows:60px 50px;
+		grid-template-columns:110px auto;
+		width:100%;
+    max-width:350px;
+		background-color:#030320;
+	}
+
+	div.member-table div p{
+		font-size:1.2em;
+	}
+
+	div.member-table div.member-icon{
+		grid-column:1;
+		grid-row:1 / span 2;
+	}
+
+	div.member-table div.member-name{
+		grid-column:2;
+		font-size:1.3rem;
+	  font-family: serif;
+	}
+
+	div.member-table div.member-study-head{
+		display:none !important;
+	}
+}
+
+
+
+
+div.gen-18 div.member-name{
+	color:white;
+	background-color:var(--gen-18-background-color);
+}
+
+div.gen-19 div.member-name{
+	color:white;
+	background-color:var(--gen-19-background-color);
+}
+
+div.gen-20 div.member-name{
+	color:white;
+	background-color:var(--gen-20-background-color);
+}
+
+div.gen-21 div.member-name{
+	color:white;
+	background-color:var(--gen-21-background-color);
+}
+/*各学年ごとのネームプレートの名前部分の色指定*/
+/*代替わりの際に色の設定を上に倣って追加、削除する*/
+
+#ob-og{
+  display:block;
+  max-width:900px;
+  margin:0 auto;
+  padding:0 10px;
+	text-align:center;
+}
+
+div.ob-og-gen{
+	display:table-cell;
+	width:50px;
+	font-size:0.8rem
+}
+
+div.ob-og-name{
+	display:table-cell;
+  font-family:serif;
+	font-size:1rem
+}
+
+div.ob-og-part{
+	display:inline-table;
+	width:140px;
+	margin:5px 15px;
+}

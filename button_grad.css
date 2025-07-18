@@ -1,0 +1,153 @@
+.button {
+  display: block;
+  /*display: inline-block;*/
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  max-width: 120%;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  -webkit-transform: translatez(0);
+  transform: translatez(0);
+  /*transform: skew(-20deg);*//*ホバーの四角を斜めにしている*/
+  text-decoration: none;
+  box-sizing: border-box;
+
+  background: none;
+
+  -webkit-font-smoothing: antialiased
+}
+
+.sweepButton {
+  border-radius: 0px; /*style.cssでaのborder-radiusが5pxになっているため、角をとがらせるために追加*/
+  /*padding: 26px;*/
+  padding: auto; /*変更*/
+  border: none;
+  width: 100%;
+  /*background: #000000;*/
+  -webkit-transition: all 0.15s ease-out 0s;
+  transition: all 0.15s ease-out 0s;
+  backface-visibility: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+.sweepButton .gradient1, .gradient2, .gradient3, .gradient4, .gradientTop, .gradientUp{
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 300%;
+  height: 100%;
+  bottom: auto;
+  margin: auto;
+  z-index: -1;
+  background: #030320;
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000',GradientType=1 );
+  -webkit-transition: all 0s ease-out 0s;
+  transition: all 0s ease-out 0s;
+  -webkit-transform: translateX(-35%);
+  -moz-transform: translateX(-35%);
+  transform: translateX(-35%);
+
+  -webkit-font-smoothing: antialiased
+}
+
+.sweepButton .gradient1{
+  background: -moz-linear-gradient(90deg, #03032007 0%, #ffd4e2 97%, #0303202f 100%);
+  background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, #0303202f), color-stop(94%, #ffd4e2), color-stop(100%, black));
+  background: -webkit-linear-gradient(90deg, #03032007 0%, #ffd4e2 97%, #0303202f 100%);
+  background: -o-linear-gradient(90deg, #03032007 0%, #ffd4e2 97%, #0303202f 100%);
+  background: -ms-linear-gradient(90deg, #03032007 0%, #ffd4e2 97%, #0303202f 100%);
+  background: linear-gradient(90deg, #03032007 0%, #ffd4e2 97%, #0303202f 100%);
+}
+
+.sweepButton .gradient2{
+  background: -moz-linear-gradient(90deg, #03032007 0%, #e4d4ff 97%, #0303202f 100%);
+  background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, #0303202f), color-stop(94%, #e4d4ff), color-stop(100%, black));
+  background: -webkit-linear-gradient(90deg, #03032007 0%, #e4d4ff 97%, #0303202f 100%);
+  background: -o-linear-gradient(90deg, #03032007 0%, #e4d4ff 97%, #0303202f 100%);
+  background: -ms-linear-gradient(90deg, #03032007 0%, #e4d4ff 97%, #0303202f 100%);
+  background: linear-gradient(90deg, #03032007 0%, #e4d4ff 97%, #0303202f 100%);
+}
+
+.sweepButton .gradient3{
+  background: -moz-linear-gradient(90deg, #03032007 0%, #d4fffd 97%, #0303202f 100%);
+  background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, #0303202f), color-stop(94%, #d4fffd), color-stop(100%, black));
+  background: -webkit-linear-gradient(90deg, #03032007 0%, #d4fffd 97%, #0303202f 100%);
+  background: -o-linear-gradient(90deg, #03032007 0%, #d4fffd 97%, #0303202f 100%);
+  background: -ms-linear-gradient(90deg, #03032007 0%, #d4fffd 97%, #0303202f 100%);
+  background: linear-gradient(90deg, #03032007 0%, #d4fffd 97%, #0303202f 100%);
+}
+
+.sweepButton .gradient4{
+  background: -moz-linear-gradient(90deg, #03032007 0%, #fcffd4 97%, #0303202f 100%);
+  background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, #0303202f), color-stop(94%, #fcffd4), color-stop(100%, black));
+  background: -webkit-linear-gradient(90deg, #03032007 0%, #fcffd4 97%, #0303202f 100%);
+  background: -o-linear-gradient(90deg, #03032007 0%, #fcffd4 97%, #0303202f 100%);
+  background: -ms-linear-gradient(90deg, #03032007 0%, #fcffd4 97%, #0303202f 100%);
+  background: linear-gradient(90deg, #03032007 0%, #fcffd4 97%, #0303202f 100%);
+}
+
+.sweepButton .gradientTop{
+  background: -moz-linear-gradient(90deg, #03032007 0%, #f293ff 97%, #0303202f 100%);
+  background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, #0303202f), color-stop(94%, #f293ff), color-stop(100%, black));
+  background: -webkit-linear-gradient(90deg, #03032007 0%, #f293ff 97%, #0303202f 100%);
+  background: -o-linear-gradient(90deg, #03032007 0%, #f293ff 97%, #0303202f 100%);
+  background: -ms-linear-gradient(90deg, #03032007 0%, #f293ff 97%, #0303202f 100%);
+  background: linear-gradient(90deg, #03032007 0%, #f293ff 97%, #0303202f 100%);
+}
+
+.sweepButton .gradientUp{
+  background: -moz-linear-gradient(90deg, #03032007 0%, #f293ff 97%, #0303202f 100%);
+  background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, #0303202f), color-stop(94%, #f293ff), color-stop(100%, black));
+  background: -webkit-linear-gradient(90deg, #03032007 0%, #f293ff 97%, #0303202f 100%);
+  background: -o-linear-gradient(90deg, #03032007 0%, #f293ff 97%, #0303202f 100%);
+  background: -ms-linear-gradient(90deg, #03032007 0%, #f293ff 97%, #0303202f 100%);
+  background: linear-gradient(90deg, #03032007 0%, #f293ff 97%, #0303202f 100%);
+}
+
+.sweepButton:hover, .sweepButton:focus {
+  border: none;
+  border-radius: 0;
+  color: white;
+  background-color: rgba(0, 0, 0, 0);
+  -webkit-transition: all 0.3s ease-out 0.1s;
+  transition: all 0.3s ease-out 0.1s;
+}
+
+.sweepButton:hover .gradient1, .sweepButton:hover .gradient2, .sweepButton:hover .gradient3, .sweepButton:hover .gradient4, .sweepButton:hover .gradientTop, .sweepButton:hover .gradientUp, .sweepButton:focus .gradient1, .sweepButton:focus .gradient2, .sweepButton:focus .gradient3, .sweepButton:focus .gradient4, .sweepButton:focus .gradientTop, .sweepButton:focus .gradientUp {
+  -webkit-transform: translateX(100%);
+  -moz-transform: translateX(100%);
+  transform: translateX(100%);
+  -webkit-transition: all 0.8s ease-out 0s;
+  transition: all 0.8s ease-out 0s;
+}
+
+a{
+  display:block;
+  position:relative;
+
+  width: fit-content;
+  margin: auto;
+
+  text-decoration:none;
+  text-align:center;
+  color:#fff;
+
+  border: 1.5px solid #f293ff;
+  border-image: linear-gradient(to right bottom, #f293ff 0%, #03032007 40%, #03032007 60%, #f293ff 100%);
+  border-image-slice: 1;
+  border-radius: 0%;
+
+  transition:1.2s;
+
+  background:linear-gradient(83deg, #f293ff00 30%, #f293ff 50%, #f293ff00 70%);
+  background-size: 500px 5000px;
+  background-position-x: -255px;
+  background-repeat: no-repeat;
+}
+
+a:hover{
+  background-position:0 100%;
+}

@@ -1,0 +1,59 @@
+#page_up{
+    position: fixed;
+    right: 10%;
+    bottom: 80px;
+  
+    width: 50px;
+    height: 50px;
+
+    z-index: 1;
+}
+
+#page_top{
+    position: relative;/*下部に固定*/
+    margin: 0 10% -10px auto;
+    width: 50px;
+    height: 50px;
+  
+    z-index: 1;
+}
+  
+#page_up a, #page_top a{
+    position: relative;
+  
+    display: block;
+    width: 50px;
+    height: 50px;
+  
+    text-decoration: none;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+#page_up a:hover, #page_top a:hover{
+    border: none;
+}
+  
+#page_up a::before, #page_top a::before{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  
+    margin: auto;
+}
+
+#page_up img, #page_top img{
+    width: 100%;
+}
+
+@media screen and (max-width:800px){
+    #page_up{
+        right: 10px;
+    }
+    
+    #page_top{
+        margin: 0 10px -10px auto;
+    }
+}

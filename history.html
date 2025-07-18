@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head id="head-html">
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="robots" content="noindex">
+		<script src="script/jquery-3.1.1.min.js"></script>
+		<script src="script/core.js"></script>
+		<script type="text/javascript">writeHTML("../", "head");</script>
+		<link rel="stylesheet" href="history.css">
+	</head>
+	<body>
+		<small id="latest">最終更新日：{$year}/{$month}/{$date}</small>
+		<div id="history-table-wrapper">
+			<table class="history-table">
+				<thead>
+					<tr><th colspan="2">{$year}</th><tr>
+				</thead>
+				<tbody id="history-body">
+					<tr class="history-body-part">
+						<th>{$month}/{$date}</th>
+						<td id="history-text">
+							<p class="history-text-part">
+								・{$text}
+							</p>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+
+<!--
+////////////////////////////////////////////////////////////
+	スクリプト
+////////////////////////////////////////////////////////////
+-->
+	<script type="text/javascript">
+
+		var el = $("#latest").get(0);
+		var model = el.innerHTML;
+		el.innerHTML = "";
+		writeLatest("history/history-2025.json", el, model);
+
+		el = $("#history-table-wrapper").get(0);
+		model = el.innerHTML;
+		el.innerHTML = "";
+		writeHistory("history/history-2025.json", el, model, function(){
+		writeHistory("history/history-2024.json", el, model, function(){
+		writeHistory("history/history-2023.json", el, model, function(){
+		writeHistory("history/history-2022.json", el, model, function(){
+		writeHistory("history/history-2021.json", el, model, function(){
+		writeHistory("history/history-2020.json", el, model, function(){
+		writeHistory("history/history-2019.json", el, model, function(){
+		writeHistory("history/history-2018.json", el, model, function(){
+		writeHistory("history/history-2017.json", el, model, function(){
+		writeHistory("history/history-2016.json", el, model, function(){
+		});});});});});});});});});});
+	<!--更新データの読み込み-->
+	<!--年ごとに上に倣って追加する。閉じカッコ});も忘れずに-->
+
+	</script>
+
+	</body>
+</html>

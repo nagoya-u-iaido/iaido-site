@@ -1,0 +1,1143 @@
+@charset "utf-8";
+@import "style.css";
+
+
+html{
+  scroll-behavior: smooth;
+}
+
+header{
+  top: 0;
+
+  background-image: url(img/kata_header.jpg);
+  background-position: center;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  height: 200px;
+}
+
+.img{
+  position: relative;
+}
+
+.img div{
+  position: absolute;
+  top: 18vw;
+  right: 2vw;
+
+  width: 45vw;
+}
+
+/*.img_index1{
+  position: absolute;
+  top: 10px;
+  left: 25px;
+  z-index: -10;
+
+  padding: 0;
+  width: 5rem;
+}*/
+
+.img_index2{
+  position: absolute;
+  top: -20px;
+  left: -25px;
+  z-index: -10;
+
+  display: inline-block;
+  width: 10rem;
+
+  /*border: 2px solid red;*/
+}
+
+.img_index3{
+  position: absolute;
+  top: -8px;
+  left: -25px;
+  z-index: -10;
+
+  display: inline-block;
+  width: 10rem;
+
+  /*border: 2px solid red;*/
+}
+
+video{
+  display: inline-block;
+  text-align: center;
+  margin: auto;
+  width: 100%;
+
+  /*iPhone safariの枠線を消すため*/
+  filter: drop-shadow(0px 0px rgba(0,0,0,0));
+
+  /*枠線を消すため*/
+  outline: none;
+  border: none;
+}
+
+h3{
+  margin-bottom: 0;
+
+  font-size: 1.8rem;
+  font-family: serif;
+
+  /*border: 1px solid blue;*/
+}
+
+.index{
+  display: block;
+  text-align: center;
+  margin-bottom: 40px;
+
+  /*border: 2px solid goldenrod;*/
+}
+
+.index div{
+  padding: 0 10%;
+}
+
+.index p{
+  margin-top: 10px;
+
+  /*border: 1px solid red;*/
+}
+
+.index h2{
+  margin: 20px auto;
+  width: 90%;
+}
+
+.container{
+  text-align: center;
+  margin: 20px auto 30px auto;
+  padding: 0;
+  width: 90%;
+
+  /*border: 2px solid blue;*/
+}
+
+.container>div{
+  position: relative;
+
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: top; /*上の位置をそろえる*/
+  margin: auto 5px 30px 5px;
+
+  color: white;
+
+  /*border: 1px solid blue;*//*範囲可視化用*/
+}
+
+.container>div p{
+  margin: 20px auto 0 auto;
+  padding: auto;
+  width: 270px;
+
+  font-size: 1rem;
+
+  /*border: 1px solid yellow;*/
+}
+
+.container>div a{
+  position: absolute;
+  top: 0px;
+  left: -70px;/*ホバーの範囲がlink2と連動することにより右にずれるのを戻す*/
+
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  margin: 0;
+  padding: auto;
+  width: 240px;/*ホバーの範囲の幅*/
+  max-width: 200%;/*max-widthを定義することによりwidthで自由に大きさを変えられるようになった*/
+  height: 90px;
+
+  color: white;
+  font-size: 1.8rem;
+  font-weight: bold;
+  font-family: serif;
+
+  border: none;
+
+  /*border: 1px solid red;*/
+}
+
+.kata_link{/*背景を斜めに傾けているため、文字をまっすぐにするために導入*/
+  transform: skew(20deg);
+}
+
+.topLine{/*上側の線を表示している*/
+  position: relative;
+
+  text-align: center;
+  margin: 0;
+  margin-left: 15px;
+  padding-left: 0;
+  width: 186px;
+  height: 90px;
+
+  border-top: 2px solid;
+  /*グラデーション*/
+  border-image: linear-gradient(to right, rgb(217, 0, 255) 25%, #030320 60%);
+  border-image-slice: 1;
+
+  /*background-color: rgba(255, 255, 0, 0.349);*/
+}
+
+.bottomLine{/*下側の線を表示している*/
+  position: relative;
+  left: 70px;
+
+  margin: auto;
+  padding-left: 0;
+  width: 186px;
+  height: 90px;
+
+  border-bottom: 2px solid;
+  /*グラデーション*/
+  border-image: linear-gradient(to right, #030320 40%, rgb(217, 0, 255) 85%);
+  border-image-slice: 1;
+
+  transform: skew(-20deg);
+
+  /*background-color: rgba(255, 0, 0, 0.342);*/
+}
+
+.topLine:before{/*左の線*/
+  position: absolute;
+  top: -15px;
+  left: 7px;
+
+  width: 2px;
+  height: calc(80%);
+  height: -webkit-calc(80%);
+  content: "";
+
+  background-color: white;
+  background-image: linear-gradient(to bottom, rgb(217, 0, 255) 40%, #030320 100%);
+
+  transform: rotate(20deg);
+}
+
+.topLine:after{/*右の線*/
+  position: absolute;
+  top: 32px;
+  left: 232px;
+
+  width: 2px;
+  height: -webkit-calc(80%);
+  height: calc(80%);
+  content: "";
+
+  background-color: rgb(255, 0, 0);
+  background-image: linear-gradient(to top, rgb(217, 0, 255) 40%, #030320 100%);
+
+  transform: rotate(20deg);
+}
+
+details p{
+  text-align: left;
+  margin: auto;
+
+  font-size: 1.3rem;
+
+  /*border: 2px solid palevioletred;*/
+}
+
+
+/*fade.cssに統合
+
+details[open] summary::after {
+  transform: rotateZ(450deg); /* 450度回転 *
+  top: 5px;
+  left: -5px;/*回転が真ん中でないために右にずれるのを回避*
+}
+
+details[open] .rotate_fadeIn{
+  animation: fadeIn .5s ease;
+}
+
+/*フェードインするアニメーション*
+@keyframes fadeIn{
+  from{
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+
+  to{
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/*フェードアウトさせたいがまだ未使用*
+@keyframes fadeOut{
+  from{
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  to{
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+}
+*/
+
+summary {
+  /*position: relative;*/
+
+  /*display: block;*/
+  /*text-align: left;*/
+  margin-left: 15%;
+  margin-bottom: 10px;
+  /*padding-left: 15px;*/
+  width: fit-content;
+  max-width: 800px;
+  /*list-style: none;*/
+  cursor: pointer;
+
+  font-size: 1.6rem;
+
+  /*border: 2px solid red;*/
+
+  /*transition: .7s;*/
+}
+
+/*funastyle.cssに統合
+summary::-webkit-details-marker{
+  display: none; /*開発環境で矢印を消すため*
+}
+
+summary::before, summary::after{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+
+  margin: auto;
+  content: "";
+}
+
+summary::after {
+  width: 8px;
+  height: 12px;
+  border: 6px solid transparent;
+  border-left: 10px solid white;
+  transition: .5s;
+  /*background-color: red;*//*範囲可視化用*
+}
+*/
+
+.rotate_fadeIn p{
+  margin-left: 15%;
+  margin-bottom: -10px;
+  padding-left: 0;
+
+  transition: .7s;
+
+  /*border: 2px solid greenyellow;*/
+}
+
+.rotate_fadeIn>p{
+  text-align: left;
+  margin-top: -10px;
+  margin-bottom: 3px;
+  margin-left: 15%;
+
+  width: 60%;
+
+  font-size: 1.2rem;
+
+  transition: .7s;
+
+  /*border: 2px solid blue;*/
+}
+
+.inList{
+  display: inline-block;
+  text-align: left;
+  margin: 3px;
+  padding: auto;
+  width: 100%;
+  min-width: 250px;
+  list-style: none;
+
+  font-family: serif;
+  font-size: 1.2rem;
+
+  /*border: 2px solid blueviolet;*/
+}
+
+.inList summary{
+  position: relative;
+  left: 0;
+
+  display: inline-block;
+  text-align: left;
+  margin: 0;
+  padding-left: 20px;
+  width: 100%;
+
+  font-size: 1.2rem;
+
+  background-size: 0.8rem;
+  background-image: url(img/kata/list_dot.png);
+  background-position: 0 center;
+  background-repeat: no-repeat;
+
+  /*border: 2px solid red;*/
+}
+
+.rubi {/*ルビをつけた場合のリストの画像の位置調整*/
+  background-position: 0 62% !important;
+
+  /*color: red;*/
+}
+
+.inList summary::after{
+  border: none;
+}
+
+.inList p{
+  margin: auto;
+  width: 100%;
+
+  font-size: 1.1rem;
+
+  /*border: 2px solid white;*/
+}
+
+.hover1 summary:hover{
+  text-shadow: 0 0 15px #ff1362, 0 0 15px #ff1362, 0 0 15px white;
+
+  transition: 0.3s;
+}
+
+.hover2 summary:hover{
+  text-shadow: 0 0 15px #1580fa, 0 0 15px #1580fa, 0 0 15px white;
+
+  transition: 0.3s;
+}
+
+.hover3 summary:hover{
+  text-shadow: 0 0 15px #32fff5, 0 0 15px #32fff5, 0 0 15px white;
+
+  transition: 0.3s;
+}
+
+.hover4 summary:hover{
+  text-shadow: 0 0 15px #f1ff2c, 0 0 15px #f1ff2c, 0 0 15px white;
+
+  transition: 0.3s;
+}
+
+.introduction{
+  text-align: center;
+
+  /*border: 2px solid blue;*/
+}
+
+.ranking h2{
+  position: relative;
+
+  display: inline-block;
+  text-align: center;
+  margin: 0;
+  margin-top: 30px;
+  width: auto;
+
+  font-size: 2.3rem;
+
+  /*background-color: rgba(153, 205, 50, 0.623);*/
+}
+
+/*下線グラデーション*/
+#seitei{
+  position: relative;/*画像を表示するために必要*/
+
+  text-align: left;
+  margin: auto;
+  padding: 0;
+  padding-left: 40px;
+  width: 60%;
+
+  border-bottom: 2px solid white;
+  border-image: linear-gradient(to right, white 0%, #ff70a0 100%);
+  border-image-slice: 1;
+}
+
+#seiza{
+  position: relative;/*画像を表示するために必要*/
+
+  text-align: left;
+  margin: auto;
+  padding: 0;
+  padding-left: 40px;
+  width: 60%;
+
+  border-bottom: 2px solid white;
+  border-image: linear-gradient(to right, white 0%, #9068ff 100%);
+  border-image-slice: 1;
+}
+
+#tatehiza{
+  position: relative;/*画像を表示するために必要*/
+
+  text-align: left;
+  margin: auto;
+  padding: 0;
+  padding-left: 40px;
+  width: 60%;
+
+  border-bottom: 2px solid white;
+  border-image: linear-gradient(to right, white 0%, #5bffce 100%);
+  border-image-slice: 1;
+}
+
+#okudenn{
+  position: relative;/*画像を表示するために必要*/
+
+  text-align: left;
+  margin: auto;
+  padding: 0;
+  padding-left: 40px;
+  width: 60%;
+
+  border-bottom: 2px solid white;
+  border-image: linear-gradient(to right, white 0%, #fcff56 100%);
+  border-image-slice: 1;
+}
+
+/*技紹介ゾーン*/
+.rank{
+  padding: 0;
+  margin-top: 30px;
+
+  /*border: 2px solid red;*/
+}
+
+.rank p{
+  position: relative;
+
+  display: inline-block;
+  text-align: center;
+  margin: 5px 10px;
+
+  font-size: 1.6rem;
+
+  border: none;
+}
+
+.rank_1st{
+  display: inline-block;
+  padding: 0 5%;
+  margin-bottom: 40px;
+  width: 100%;
+
+  font-family: serif;
+
+  /*border: 2px solid blue;*/
+}
+
+.rank_other{
+  display: inline-block;
+  vertical-align: top;
+  margin: 20px 20px 20px 40px;
+  padding: 0;
+  width: 400px;
+  max-width: 450px;
+
+  font-family: serif;
+
+  /*border: 2px solid orange;*/
+}
+
+.rank_1st>p{
+  margin: auto;
+  margin: 15px auto 20px auto;
+  padding: 0;
+  width: 100%;
+
+  font-size: 2.3rem;
+  font-weight: bold;
+  text-shadow: 0px 0px 10px gold, 0px 0px 10px gold, 0px 0px 10px gold;
+
+  border-bottom: 2px solid white;
+  border-image: linear-gradient(to right, #030320 30%, rgb(246, 255, 115) 35%, rgb(246, 255, 115) 65%, #030320 70%);
+  border-image-slice: 1;
+}
+
+.rank_other>p{
+  display: inline-block;
+  vertical-align: top;
+  margin: auto;
+  width: 350px;
+
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-shadow: 0px 0px 10px rgb(0, 217, 255), 0px 0px 10px rgb(0, 217, 255);
+
+  border-bottom: 2px solid white;
+  border-image: linear-gradient(to right, #030320 0%, rgb(118, 178, 255) 15%, rgb(118, 178, 255) 85%, #030320 100%);
+  border-image-slice: 1;
+}
+
+.rank_1st summary{
+  display: inline-block;
+  margin: auto;
+
+  font-size: 1rem;
+
+  /*border: 2px solid red;*/
+}
+
+.rank_other summary{
+  display: inline-block;
+  margin: auto;
+
+  font-size: 1rem;
+
+  /*border: 2px solid blueviolet;*/
+}
+
+.rank_1st details{
+  margin: auto;
+
+  font-family: sans-serif;
+}
+
+.rank_other details{
+  margin: auto;
+  width: 350px;
+
+  font-family: sans-serif;
+
+  /*border: 2px solid whitesmoke;*/
+}
+
+.rank_1st details div{
+  margin: auto;
+  max-width: 90%;
+}
+
+.rank_other details div{
+  margin: auto;
+  max-width: 650px;
+
+  /*border: 2px solid red;*/
+}
+
+.rank_sentence{
+  display: inline-block;
+  text-align: center;
+  vertical-align: top;
+  margin-right: 10px;
+  padding-top: 10px;
+  width: 400px;
+  min-height: 220px;
+
+ /* border: 2px solid lawngreen;*/
+}
+
+.rank_sentence_other{
+  position: relative;
+  display: block;
+  text-align: center;
+  margin: auto;
+  padding: auto;
+  width: 380px;
+  min-height: 150px;
+
+  /*border: 1px solid red;*/
+}
+
+.rank_sentence>div p:first-child{/*リストの上の文章*/
+  display: block;
+  margin-left: -15px;
+  margin-bottom: 5px;
+
+  font-size: 1.3rem;
+  font-family: sans-serif;
+  font-weight: bold;
+  line-height: normal;
+
+  /*color: red;*/
+}
+
+.rank_sentence_other>div p:first-child{
+  position: relative;
+  display: block;
+  margin: auto;
+
+  font-size: 1.2rem;
+  font-weight: bold;
+  font-family: sans-serif;
+  line-height: normal;
+
+  /*color: red;*/
+}
+
+.rank_sentence p{
+  display: inline-block;
+  margin: auto;
+
+  /*color: red;*/
+  font-size: 1.2rem;
+  font-family: sans-serif;
+  line-height: 1.25rem;
+
+  /*border: 2px solid green;*/
+}
+
+.rank_sentence_other p{
+  display: inline-block;
+  margin: auto;
+
+  /*color: red;*/
+  font-size: 1.1rem;
+  font-family: sans-serif;
+  line-height: 1.25rem;
+
+  /*border: 2px solid green;*/
+}
+
+.rank_sentence>div:first-child{
+  display: table;
+  margin: auto;
+  padding: auto;
+  min-height: 60px;
+
+  /*border: 1px solid orange;*/
+}
+
+.rank_sentence_other>div:first-child{
+  display: table;
+  margin: auto;
+  padding: auto;
+  min-height: 60px;
+  /*border: 1px solid orangered;*/
+}
+
+.rank_sentence>div:first-child p{/*一番上の文*/
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  margin: auto;
+
+  font-size: 1.15rem;
+  font-weight: normal;
+  line-height: 22px;
+
+  /*border: 2px solid purple;*/
+}
+
+.rank_sentence_other>div:first-child p{
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  margin: auto;
+
+  font-size: 1.1rem;
+  font-weight: normal;
+  font-family: sans-serif;
+  line-height: 22px;
+
+  /*border: 1px solid blue;*/
+}
+
+.rank_sentence>div:nth-child(2){
+  min-height: 180px;
+  margin: 10px auto;
+  margin-left: 0px;
+  padding: auto;
+  padding-top: 20px;
+  width: 400px;
+  vertical-align: middle;
+
+  background-image: url(img/kata/point1.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+
+  /*border: 1px solid green;*/
+}
+
+.rank_sentence_other>div:nth-child(2){
+  min-height: 165px;
+  margin: auto;
+  padding: auto;
+  padding-top: 10px;
+  width: 380px;
+  vertical-align: middle;
+
+  /*border: 1px solid red;*/
+}
+
+.rank_sentence>div:nth-child(2) p:first-child{
+  font-size: 1.6rem;
+}
+
+.rank_sentence_other>div:nth-child(2) p:first-child{
+  font-size: 1.6rem;
+}
+
+.rank_sentence ul{
+  position: relative;
+
+  display: inline-block;
+  text-align: left;
+  margin: auto;
+  padding: 0;
+  width: 330px;
+
+  font-size: 1.2rem;
+  font-weight: normal;
+
+  /*border: 2px solid greenyellow;*/
+}
+
+.rank_sentence_other ul{
+  position: relative;
+
+  display: inline-block;
+  text-align: left;
+  margin: auto;
+  padding: 0;
+  padding-top: 15px;
+  width: 300px;
+
+  font-size: 1.1rem;
+  font-weight: normal;
+
+  /*border: 2px solid greenyellow;*/
+}
+
+.rank_sentence li{
+  position: relative;
+
+  display: inline-block;
+  text-align: left;
+  margin-left: 0;
+  padding-left: 20px;
+  list-style: none;
+
+  font-family: sans-serif;
+
+  background-size: 0.8rem;
+  background-image: url(img/kata/list_dot.png);
+  background-position: 0 center;
+  background-position-x: 5px;
+  background-repeat: no-repeat;
+
+  /*border: 2px solid purple;*/
+}
+
+.rank_sentence_other li{
+  position: relative;
+
+  display: inline-block;
+  text-align: left;
+  margin: 0;
+  padding-left: 18px;
+
+
+  list-style: none;
+  font-family: sans-serif;
+
+  background-size: 0.8rem;
+  background-image: url(img/kata/list_dot.png);
+  background-position: 2px center;
+  background-repeat: no-repeat;
+
+  /*border: 2px solid purple;*/
+}
+
+.rank_movie{
+  display: inline-block;
+  vertical-align: text-bottom;/*上部の位置を揃えるために必要*/
+  margin: 10px 0 auto;
+  padding: auto;
+  width: 400px;
+
+  /*border: 2px solid white;*/
+}
+
+.rank_movie_other{
+  vertical-align: top;
+  margin: 5px auto;
+  width: 350px;
+  max-width: 350px;
+
+  /*border: 2px solid gold;*/
+}
+
+.kata_container{
+  text-align: left;
+  margin: auto;
+  margin-bottom: 40px;
+  width: 60%;
+
+  /*border: 2px solid red;*/
+}
+
+.kata_container ul{
+  text-align: left;
+  margin: auto;
+}
+
+.kata_container li{
+  text-align: left;
+  width: 60%;
+  margin-left: 17%;
+  /*padding-left: 20px;*/
+  list-style: none;
+
+  font-family: serif;
+  font-size: 1.2rem;
+
+  /*background-size: 0.8rem;
+  background-image: url(img/kata/list_dot.png);
+  background-position: 0 center;
+  background-repeat: no-repeat;*/
+
+  transition: .7s;
+
+  /*border: 2px solid red;*//*範囲可視化用*/
+}
+
+/*スマホへの対応*/
+@media screen and (max-width:800px) {
+
+  .img_index2{
+    display: none;
+
+    /*top: 0;
+    left: 10px;
+    width: 9rem;
+
+    border: 1px solid white;*/
+  }
+
+  video{
+    width: 100%;
+  }
+
+  .ranking h2{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+
+    font-size: 1.8rem;
+
+    /*background-color: blueviolet;*/
+  }
+
+  .rank_other{
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 40px;
+  width: 90%;
+  }
+
+  .rank_1st>p{
+    font-size: 1.5rem;
+
+    border-bottom: 2px solid white;
+    border-image: linear-gradient(to right, #030320 10%, rgb(246, 255, 115) 20%, rgb(246, 255, 115) 80%, #030320 90%);
+    border-image-slice: 1;
+  }
+
+  .rank_other>p{
+    font-size: 1.5rem;
+    width: 90%;
+    padding: 0;
+  }
+
+  .rank_1st details{
+    margin: 20px auto;
+    padding: 0px;
+
+    text-align: center;
+
+    /*border: 2px solid red;*/
+  }
+
+  .rank_other details{
+    margin: 20px auto;
+    padding: auto;
+
+    max-width: 90%;
+
+    text-align: center;
+
+    /*border: 1px solid white;*/
+  }
+
+  .rank_sentence{
+    max-width: 100%;
+    /*border: 2px solid red;*/
+  }
+
+  .rank_sentence_other{
+    max-width: 100%;
+  }
+
+  .rank_sentence>p{
+    margin: 10 px auto 20px auto;
+
+    font-size: 1.1rem;
+  }
+
+  .rank_sentence_other>p{
+    margin: 10 px auto 20px auto;
+
+    font-size: 1.0rem;
+
+    /*color: red;*/
+  }
+
+  .rank_sentence ul{
+    max-width: 100%;
+
+    font-size: 1rem;
+    /*border: 2px solid purple;*/
+  }
+
+  .rank_sentence_other ul{
+    max-width: 100%;
+
+    font-size: 1rem;
+  }
+
+  .rank_sentence>div:nth-child(2){
+    width: 350px;
+    max-width: 100%;
+    margin: auto;
+
+    /*border: 1px solid blue;*/
+  }
+
+  .rank_sentence_other>div:nth-child(2){
+    width: 100%;
+    margin: auto;
+
+    /*border: 1px solid green;*/
+  }
+
+  .rank_sentence>div:nth-child(2) p{
+    font-size: 1rem;
+  }
+
+  .rank_sentence_other>div:nth-child(2) p{
+    font-size: 1rem;
+  }
+
+  .rank_sentence>div:nth-child(2) p:first-child{
+    margin-top: -15px;
+    font-size: 1.3rem;
+  }
+
+  .rank_sentence_other>div:nth-child(2) p:first-child{
+    font-size: 1.3rem;
+  }
+
+  .rank_movie{
+    max-width: 90%;
+  }
+
+  .rank_movie_other{
+    max-width: 90%;
+    margin: auto;
+    padding: auto;
+
+    /*border: 1px solid green;*/
+  }
+
+  .index div{
+    padding: 0 3%;
+  }
+
+  #seitei{
+    text-align: center;
+    margin: auto;
+    padding: 0 20px;
+    width: 85%;
+
+    /*background-color: burlywood;*/
+  }
+
+  #seiza{
+    text-align: center;
+    margin: auto;
+    padding: 0 20px;
+    width: 85%;
+
+    /*color: red;*/
+  }
+
+  #tatehiza{
+    text-align: center;
+    margin: auto;
+    padding: 0 20px;
+    width: 85%;
+  }
+
+  #okudenn{
+    text-align: center;
+    margin: auto;
+    padding: 0 20px;
+    width: 85%;
+  }
+
+  .kata_container{
+    margin: auto;
+    margin-bottom: 35px;
+  }
+
+  summary {
+    width: fit-content;
+    margin: auto;
+    padding: auto;
+    text-align: center;
+
+    font-size: 1.4rem;
+
+    /*border: 1px solid red;*/
+  }
+
+  .rotate_fadeIn p{
+    text-align: left;
+    margin: auto;
+    padding-left: 0;
+    width: fit-content;
+
+    /*border: 1px solid wheat;*/
+  }
+
+  .rotate_fadeIn>p{
+    text-align: left;
+    padding-left: 18px;
+    width: fit-content;
+
+    font-size: 1.1rem;
+
+    /*border: 1px solid purple;*/
+  }
+
+  .rotate_fadeIn summary{
+    left: 30px;
+
+    /*border: 1px solid blue;*/
+  }
+
+  .kata_container li{
+    margin: auto;
+    width: fit-content;
+
+    /*border: 1px solid white;*/
+  }
+}

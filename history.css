@@ -1,0 +1,28 @@
+@charset "utf-8";
+@import "style.css";
+
+body{
+	background-image:none;
+	overflow-x:hidden;
+	overflow-y:auto;
+	-ms-overflow-style:none;
+	font-size:1rem;
+}
+
+table.history-table{
+	width:100%;
+}
+
+table.history-table th{
+  border-top: 1px solid #ccc;
+	width:80px;
+}
+
+table.history-table td{
+  border-top: 1px solid #ccc;
+	text-align:left;
+}
+
+p{
+	font-size:1rem;
+}

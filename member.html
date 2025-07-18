@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+	<head id="head-html">
+		<title>名古屋大学居合道部</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="理、農、教育、工、法、文など様々な学部に跨り、名大以外の大学から稽古しにくる者も。しかし誰一人として普通な者はいない。なぜなら「普通な人は居合道をやろうとなんて思わない」のだ">
+		<script src="script/jquery-3.1.1.min.js"></script>
+		<script src="script/core.js"></script>
+		<script src="script/hamburger.js"></script>
+    <script src="script/page_move.js"></script>
+    <link rel="stylesheet" href="member.css">
+		<link rel="shortcut icon" href="favicon.ico">
+	</head>
+
+	<body>
+		<!--ヘッダー-->
+    <header>
+      <h1>部員紹介</h1>
+    </header>
+
+
+		<!--ハンバーガーボタン-->
+		<div class="hamburger">
+			<span></span>
+			<span></span>
+			<span></span>
+		</div>
+
+
+		<!--メニュー-->
+		<nav class="globalMenuSp">
+			<ul>
+				<li><a href="index.html">TOP</a></li>
+				<li><a href="iai.html">居合道とは</a></li>
+				<li><a href="kata.html">形</a></li>
+				<li><a href="katana.html">刀</a></li>
+				<li><a href="work.html">活動</a></li>
+				<li><a href="member.html"><u>部員</u></a></li>
+        <li><a href="https://ameblo.jp/nuiai/" target="_blank">ブログ</a></li>
+				<a href="https://twitter.com/iaido_nagoya_u" target="_blank"><img src="img/twitter_logo.png" alt="Twitter" width=40px></a>
+				<a href="https://instagram.com/meidai_iaido" target="_blank"><img src="img/instagram_logo.png" alt="Instagram" width=40px></a>
+    	</ul>
+		</nav>
+
+
+    <!--上へ戻るボタン-->
+  	<div id="page_up"><a href="#" title="上に戻る" class="button sweepButton"><span class="gradientUp"></span><img src="img/uparrow.png"></a></div>
+
+
+		<!--本文-->
+    <section class="description">
+      <div>
+				<h2>―曰く、「普通な人は居合道をやろうとなんて思わない」―</h2>
+				<p>
+					理、農、教育、工、法、文など様々な学部に跨り、名大以外の大学から稽古しにくる者も。
+					しかし誰一人として普通な者はいない。なぜなら「普通な人は居合道をやろうとなんて思わない」のだ
+				</p>
+      </div>
+    </section>
+
+    <div class="main">
+      <div class="main-contents">
+        <h2>第19代主将</h2>
+				<!--代を適宜変更すること-->
+        <div id="leader">
+          <div class="member-table gen-{$generation} now">
+            <div class="member-icon-head member-head">画像</div>
+            <div class="member-icon"><img src="img/member/{$generation}/{$image}"></div>
+            <div class="member-name-head member-head">名前</div>
+            <div class="member-name"><p>{$name}</p></div>
+            <div class="member-study-head member-head">所属</div>
+            <div class="member-study"><p>{$study}</p></div>
+            <div class="member-role-head member-head">役職</div>
+            <div class="member-role"><p>{$role}</p></div>
+            <div class="member-from-head member-head">出身地</div>
+            <div class="member-from"><p>{$from}</p></div>
+            <div class="member-former-head member-head">部活経験</div>
+            <div class="member-former"><p>{$former}</p></div>
+            <div class="member-attraction-head member-head member-pull">ﾁｬｰﾑﾎﾟｲﾝﾄ</div>
+            <div class="member-attraction member-pull"><p>{$attraction}</p></div>
+            <div class="member-motto-head member-head member-pull">座右の銘</div>
+            <div class="member-motto member-pull"><p>{$motto}</p></div>
+            <div class="member-comment-head member-head member-pull">ひとこと</div>
+            <div class="member-comment member-pull"><p>{$comment}</p></div>
+            <div class="pull-up-button pull-button">▲</div>
+            <div class="pull-down-button pull-button">▼</div>
+          </div>
+        </div>
+        <h2>部員</h2>
+        <table class="num-of-member-table">
+          <tbody>
+            <tr>
+              <th>4年生</th>
+              <th>3年生</th>
+              <th>2年生</th>
+              <th>1年生</th>
+            </tr>
+            <tr>
+              <td>3人</td>
+              <td>8人</td>
+              <td>13人</td>
+              <td>10人</td>
+            </tr>
+						<!--各学年の人数の表-->
+						<!--適宜変更すること-->
+          </tbody>
+        </table>
+        <div id="member">
+          <div class="member-table gen-{$generation} now">
+            <div class="member-icon-head member-head">画像</div>
+            <div class="member-icon"><img src="img/member/{$generation}/{$image}"></div>
+            <div class="member-name-head member-head">名前</div>
+            <div class="member-name"><p>{$name}</p></div>
+            <div class="member-study-head member-head">所属</div>
+            <div class="member-study"><p>{$study}</p></div>
+            <div class="member-role-head member-head">役職</div>
+            <div class="member-role"><p>{$role}</p></div>
+            <div class="member-from-head member-head">出身地</div>
+            <div class="member-from"><p>{$from}</p></div>
+            <div class="member-former-head member-head">部活経験</div>
+            <div class="member-former"><p>{$former}</p></div>
+            <div class="member-attraction-head member-head member-pull">ﾁｬｰﾑﾎﾟｲﾝﾄ</div>
+            <div class="member-attraction member-pull"><p>{$attraction}</p></div>
+            <div class="member-motto-head member-head member-pull">座右の銘</div>
+            <div class="member-motto member-pull"><p>{$motto}</p></div>
+            <div class="member-comment-head member-head member-pull">ひとこと</div>
+            <div class="member-comment member-pull"><p>{$comment}</p></div>
+            <div class="pull-up-button pull-button">▲</div>
+            <div class="pull-down-button pull-button">▼</div>
+          </div>
+        </div>
+        <h2>OB・OG・院生</h2>
+        <div id="ob-og">
+          <div class="ob-og-part">
+            <div class="ob-og-gen">第{$generation}代</div>
+            <div class="ob-og-name">{$name}</div>
+          </div>
+        </div>
+      </div>
+		</div>
+
+
+    <!--トップへ戻るボタン-->
+	  <div id="page_top"><a href="index.html" title="Topに戻る" class="button sweepButton"><span class="gradientTop"></span><img src="img/top.png"></a></div>
+
+
+		<!--フッター-->
+		<footer>
+			<div class="links">
+				<div class="logo">
+			  	<a href="index.html"><img src="img/namelogo_white.png"></a>
+		  	</div>
+				<div class="SNS">
+					<a href="https://twitter.com/iaido_nagoya_u"  target="_blank">
+						<img src="img/twitter_logo.png" alt="Twitter">
+					</a>
+					<a href="https://instagram.com/meidai_iaido" target="_blank">
+						<img src="img/instagram_logo.png" alt="Instagram">
+					</a>
+				</div>
+			</div>
+			<p>&copy;2022 名古屋大学居合道部</p>
+    </footer>
+
+
+		<!--スクリプト-->
+    <script type="text/javascript">
+      writeHTML("../", "main-header");
+      writeHTML("../", "side-bar");
+
+      var el1 = $("#leader").get(0);
+      var model1 = el1.innerHTML;
+      el1.innerHTML = "";
+      var el2 = $("#member").get(0);
+      var model2 = el2.innerHTML;
+      el2.innerHTML = "";
+      writeMember("member/leader.json", el1, model1, function(){
+      writeMember("member/member18.json", el2, model2, function(){
+      writeMember("member/member19.json", el2, model2, function(){
+      writeMember("member/member20.json", el2, model2, function(){
+      writeMember("member/member21.json", el2, model2, function(){
+
+        setPullButton();
+        pullUp($("body"));
+      });});});});});
+			<!--各学年ごとの自己紹介のデータ読み込み-->
+			<!--代替わりごとに上に倣って追加、削除する。閉じカッコ});も忘れずに-->
+
+      var el3 = $("#ob-og").get(0);
+      var model3 = el3.innerHTML;
+      el3.innerHTML = "";
+      writeObOg("member/member17.json", el3, model3, function(){
+      writeObOg("member/member16.json", el3, model3, function(){
+      writeObOg("member/member15.json", el3, model3, function(){ 
+      writeObOg("member/member14.json", el3, model3, function(){
+      writeObOg("member/member13.json", el3, model3, function(){
+      writeObOg("member/member12.json", el3, model3, function(){
+      writeObOg("member/member11.json", el3, model3, function(){
+      writeObOg("member/member10.json", el3, model3, function(){
+      });});});});});});});});
+			<!--OBOGの自己紹介のデータ読み込み-->
+			<!--代替わりごとに上に倣って追加する。閉じカッコ});も忘れずに-->
+    </script>
+  </body>
+</html>
