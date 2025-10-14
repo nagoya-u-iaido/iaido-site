@@ -21,6 +21,18 @@
     "motto":"為虎傅翼",
     "comment":"三河弁強めです"
   },
+
+{
+    "name":"川井 樹",
+    "study":"理学部",
+    "generation":21,
+    "from":"岐阜県岐阜市",
+    "former":"水泳部",
+    "image":"kawai.jpeg",
+    "attraction":"左右非対称な目",
+    "motto":"塞翁が馬",
+    "comment":"猫派です"
+  },
 	
   {
     "name":"佐藤 美羽",
@@ -47,7 +59,19 @@
   },
 
 {
-    "name":"横山　昴司",
+	"name":"MATEFY Adam",
+    "study":"理学部物理学科",
+    "generation":21,
+    "from":"ハンガリー",
+    "former":"天文部/バレーボール部",
+    "image":"Adam.jpeg",
+    "attraction":"ダジャレが好き",
+    "motto":"Aurea mediocritas",
+    "comment":"この湖には鴨がいないカモ"
+  },
+
+{
+    "name":"横山　昂司",
     "study":"理学部",
     "generation":21,
     "from":"大阪府大阪市",
@@ -69,5 +93,6 @@
     "motto":"遠離一切顛倒夢想",
     "comment":"護身用にやってます"
   }
+
 
 ]
