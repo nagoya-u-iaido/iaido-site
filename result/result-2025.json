@@ -3,6 +3,42 @@
 	"yearName":"令和7年度",
 	"game":[
 		{
+			"gameName":"第37回東海学生居合道選手権大会",
+			"individual":[
+				{
+					"part":"二段の部",
+					"result":[
+						{"rank":"準優勝","name":"小島あかね"}
+					]
+				},
+				{
+					"part":"初段の部",
+					"result":[
+						{"rank":"優勝","name":"大橋弘聖"},
+						{"rank":"準優勝","name":"日比野紗和"},
+                        {"rank":"第三位","name":"五十嵐大翔"}
+					]
+				},
+				{
+					"part":"段外の部",
+					"result":[
+                        {"rank":"第三位","name":"大山颯介"}
+					]
+				}
+			],
+			"team":[
+				{
+					"part":"団体戦",
+					"match":[
+						{"round":"一戦目","opponent":"岐阜大学","ourPoints":4,"opponentPoints":1},
+						{"round":"二戦目","opponent":"愛知学院大学","ourPoints":3,"opponentPoints":2}
+					],
+					"result":"優勝",
+					"member":["堀瑛竣","日髙亜美","鈴木健太","石田慎太郎","小島あかね","藪崎彩友","大橋弘聖","日比野紗和"]
+				}
+			]
+		},
+		{
 			"gameName":"第79回半田市スポーツ大会・剣道競技(居合道の部)",
 			"individual":[
 				{
@@ -45,6 +81,7 @@
 		}
 	]
 }
+
 
 
 
