@@ -3,6 +3,28 @@
 	"yearName":"令和7年度",
 	"game":[
 		{
+			"gameName":"第40回全日本学生居合道大会",
+			"individual":[
+				{
+					"part":"個人戦",
+					"result":[
+						{"rank":"初戦敗退","name":"小島あかね"}
+						 ]
+				}
+			],
+			"team":[
+				{
+					"part":"団体戦",
+					"match":[
+						{"round":"一戦目","opponent":"中央大学","ourPoints":1,"opponentPoints":4}
+					],
+					"result":"初戦敗退",
+					"member":["小島あかね","堀瑛竣","大橋弘聖","日髙亜美","鈴木健太"]
+				
+				}
+			]
+		},
+		{
 			 "gameName":"第43回岡崎市居合道大会",
 			                "individual":[
 				{
@@ -132,6 +154,7 @@
 		}
 	]
 }
+
 
 
 
