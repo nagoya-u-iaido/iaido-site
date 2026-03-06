@@ -47,18 +47,6 @@
   },
 
 {
-    "name":"西　愛佳",
-    "study":"文学部",
-    "generation":21,
-    "from":"福井県福井市",
-    "former":"ソフトテニス/山岳",
-    "image":"nishi.jpeg",
-    "attraction":"関節の可動域",
-    "motto":"桜梅桃李",
-    "comment":"物持ちの良い人間を名乗るために日々修行中です"
-  },
-
-{
 	"name":"MATEFY Adam",
     "study":"理学部物理学科",
     "generation":21,
@@ -96,3 +84,4 @@
 
 
 ]
+
