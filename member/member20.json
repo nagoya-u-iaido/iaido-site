@@ -1,16 +1,4 @@
-[{
-    "name":"綾城 敏佑",
-    "study":"文/心理学専攻",
-    "generation":20,
-    "from":"韓国水原市",
-    "former":"サッカー部",
-    "image":"minu.jpeg",
-    "attraction":"部内唯一な外国人",
-    "motto":"You cannot create experience. You must undergo it.-Albert Camus",
-    "comment":"専攻より自転車修理の腕がうまくなった件"
-  },
-
-  {
+[ {
     "name":"五十嵐 大翔",
     "study":"理",
     "generation":20,
@@ -88,7 +76,7 @@
     "from":"愛知県",
     "former":"美術部/放送部",
     "image":"shirai.jpeg",
-    "attraction":"好きな食べ物は最後に取っておく派",
+    "attraction":"既読が早い",
     "motto":"無益の事を行じて徒に時を失うなかれ",
     "comment":"色んなことに挑戦したいです"
   },
@@ -152,4 +140,5 @@
     "motto":"気楽に、慎重に、真剣に",
     "comment":"ゆとりが大事"
   }
+
 ]
