@@ -3,6 +3,26 @@
 	"yearName":"令和7年度",
 	"game":[
 		{
+			"gameName":"第50回全国各流居合道北九州大会",
+			"individual":[
+				{
+					"part":"二段の部",
+					"result":[
+						{"rank":"二回戦進出","name":"堀瑛竣"}
+					]
+				},
+			
+				{
+					"part":"初段の部",
+					"result":[
+						{"rank":"三回戦進出","name":"五十嵐大翔"},
+						{"rank":"二回戦進出","name":"日比野紗和"}
+					]
+				}
+
+			]
+		},
+		{
 			"gameName":"第40回全日本学生居合道大会",
 			"individual":[
 				{
