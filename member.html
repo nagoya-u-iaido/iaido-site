@@ -61,7 +61,7 @@
 
     <div class="main">
       <div class="main-contents">
-        <h2>第19代主将</h2>
+        <h2>第20代主将</h2>
 				<!--代を適宜変更すること-->
         <div id="leader">
           <div class="member-table gen-{$generation} now">
@@ -97,10 +97,10 @@
               <th>1年生</th>
             </tr>
             <tr>
-              <td>3人</td>
               <td>8人</td>
-              <td>13人</td>
-              <td>10人</td>
+              <td>11人</td>
+              <td>7人</td>
+              <td>募集中</td>
             </tr>
 						<!--各学年の人数の表-->
 						<!--適宜変更すること-->
@@ -190,6 +190,7 @@
       var el3 = $("#ob-og").get(0);
       var model3 = el3.innerHTML;
       el3.innerHTML = "";
+	  writeObOg("member/member18.json", el3, model3, function(){
       writeObOg("member/member17.json", el3, model3, function(){
       writeObOg("member/member16.json", el3, model3, function(){
       writeObOg("member/member15.json", el3, model3, function(){ 
@@ -198,7 +199,7 @@
       writeObOg("member/member12.json", el3, model3, function(){
       writeObOg("member/member11.json", el3, model3, function(){
       writeObOg("member/member10.json", el3, model3, function(){
-      });});});});});});});});
+      });});});});});});});});});
 			<!--OBOGの自己紹介のデータ読み込み-->
 			<!--代替わりごとに上に倣って追加する。閉じカッコ }); も合わせて追加する-->
     </script>
