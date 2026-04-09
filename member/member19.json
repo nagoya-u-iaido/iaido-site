@@ -2,7 +2,6 @@
 "name":"石田 慎太郎",
 "study":"文",
 "generation":19,
-"role":"東海連盟幹事長",
 "from":"茨城県取手市",
 "former":"卓球部",
 "image":"ishida.jpeg",
@@ -10,12 +9,11 @@
 "motto":"好きこそ物の上手なれ",
 "comment":"本当は金太郎よりRED THUNDERの方が好きです。"
 },
-
+ 
 {
 "name":"小島 あかね",
 "study":"教育/人間発達科学",
 "generation":19,
-"role":"会計",
 "from":"名古屋市",
 "former":"バドミントン部",
 "image":"akojima.jpeg",
@@ -28,7 +26,6 @@
 "name":"鈴木 明日香",
 "study":"理",
 "generation":19,
-"role":"大会管理",
 "from":"愛知県愛西市",
 "former":"卓球部/筝曲部",
 "image":"asuzuki.jpeg",
@@ -41,7 +38,6 @@
 "name":"鈴木 健太",
 "study":"法",
 "generation":19,
-"role":"副将/ビデオ管理",
 "from":"神奈川県",
 "former":"ソフトテニス部",
 "image":"ksuzuki.jpeg",
@@ -54,7 +50,6 @@
 "name":"日高 亜美",
 "study":"教育",
 "generation":19,
-"role":"副将/東海連盟幹事",
 "from":"愛知県豊田市",
 "former":"ソフトテニス部/バスケ部",
 "image":"hidaka.jpeg",
@@ -62,12 +57,24 @@
 "motto":"人事を尽くして天命を待つ",
 "comment":"はしごだか"
 },
-
+  
+{
+  "name":"堀 瑛竣",
+  "study":"理",
+  "generation":19,
+  "role":"前主将",
+  "from":"広島県広島市",
+  "former":"バレーボール部",
+  "image":"hori.jpeg",
+  "attraction":"耳のほくろ",
+  "motto":"迅速果断",
+  "comment":"冬は視界が霞んでる気がして好き"
+},
+  
 {
 "name":"藪崎 彩友",
 "study":"農/生物環境科学",
 "generation":19,
-"role":"合宿係",
 "from":"静岡県",
 "former":"バレー部/囲碁部",
 "image":"yabusaki.jpeg",
@@ -80,7 +87,6 @@
 "name":"山本 大揮",
 "study":"工/物理工学",
 "generation":19,
-"role":"合宿係",
 "from":"愛知県岡崎市",
 "former":"剣道部/弓道部",
 "image":"yamamoto.jpeg",
