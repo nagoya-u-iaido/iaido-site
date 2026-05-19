@@ -17,17 +17,17 @@ header {
 }
 
 :root{
-	--gen-18-background-color:#1d4b47;
-	--gen-18-color:#ffffff;
-
-	--gen-19-background-color:#c38743;
+	--gen-19-background-color:#1d4b47;
 	--gen-19-color:#ffffff;
 
-	--gen-20-background-color:#701C1F;
+	--gen-20-background-color:#c38743;
 	--gen-20-color:#ffffff;
 
-        --gen-21-background-color:#483d8b;
-        --gen-21-color:#ffffff;
+	--gen-21-background-color:#701C1F;
+	--gen-21-color:#ffffff;
+
+        --gen-22-background-color:#483d8b;
+        --gen-22-color:#ffffff;
 
   /*member.htmlで各学年の名前などに使う色の指定*/
   /*代替わりの際に色を上に倣って追加、削除する*/
@@ -47,23 +47,23 @@ table.num-of-member-table{
 
 
 table.num-of-member-table th:nth-of-type(1){
-	background-color:var(--gen-18-background-color);
-	color:var(--gen-18-color);
-}
-
-table.num-of-member-table th:nth-of-type(2){
 	background-color:var(--gen-19-background-color);
 	color:var(--gen-19-color);
 }
 
-table.num-of-member-table th:nth-of-type(3){
+table.num-of-member-table th:nth-of-type(2){
 	background-color:var(--gen-20-background-color);
 	color:var(--gen-20-color);
 }
 
-table.num-of-member-table th:nth-of-type(4){
+table.num-of-member-table th:nth-of-type(3){
 	background-color:var(--gen-21-background-color);
 	color:var(--gen-21-color);
+}
+
+table.num-of-member-table th:nth-of-type(4){
+	background-color:var(--gen-22-background-color);
+	color:var(--gen-22-color);
 }
 /*member.html上部の各学年の人数の表の色指定*/
 /*代替わりの際に色をずらす。nth-of-type(XX)は左からXX番目のマスの色を指定する*/
