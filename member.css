@@ -194,22 +194,22 @@ div.member-table div.pull-button{
 
 div.gen-18 div.member-name{
 	color:white;
-	background-color:var(--gen-18-background-color);
+	background-color:var(--gen-19-background-color);
 }
 
 div.gen-19 div.member-name{
 	color:white;
-	background-color:var(--gen-19-background-color);
+	background-color:var(--gen-20-background-color);
 }
 
 div.gen-20 div.member-name{
 	color:white;
-	background-color:var(--gen-20-background-color);
+	background-color:var(--gen-21-background-color);
 }
 
 div.gen-21 div.member-name{
 	color:white;
-	background-color:var(--gen-21-background-color);
+	background-color:var(--gen-22-background-color);
 }
 /*各学年ごとのネームプレートの名前部分の色指定*/
 /*代替わりの際に色の設定を上に倣って追加、削除する*/
