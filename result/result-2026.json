@@ -1,7 +1,20 @@
 {
 	"year":"r8",
 	"yearName":"令和8年度",
-	"game":[       		{
+	"game":[       		
+		{
+			"gameName":"第10回尾張居合道段別選手権",
+			"individual":[
+								{
+					"part":"初段の部",
+					"result":[
+						{"rank":"優勝","name":"大山颯介"},
+						{"rank":"準優勝","name":"横山昂司"}
+					]
+				}
+			]
+		},
+		{
 			"gameName":"第49回全剣連居合愛知県段別選手権大会",
 			"individual":[
 				{
